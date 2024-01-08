@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+<details>
+  <summary>🇪🇸 Descripción del Proyecto</summary>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h2>Nombre del Proyecto:</h2>
+  <p>Registro y Login con Actualización de Clicks - Full Stack</p>
 
-## Available Scripts
+  <h2>Descripción:</h2>
+  <p>Este proyecto presenta una aplicación full-stack que incluye un sistema de registro y login en el lado del cliente implementado con React y Redux. Además, cuenta con una interfaz de usuario interactiva que rastrea y actualiza los clics para cada usuario. El backend está construido con Express y se utiliza un archivo JSON como base de datos para una fácil portabilidad.</p>
 
-In the project directory, you can run:
+  <h2>Características Principales:</h2>
+  <ol>
+    <li><strong>Registro y Login Reactivos:</strong> Utiliza React y Redux para implementar un sistema reactivo de registro y login.</li>
+    <li><strong>Enrutamiento con React Router:</strong> Facilita la navegación entre diferentes vistas dentro de la aplicación.</li>
+    <li><strong>Actualización de Clicks en Tiempo Real:</strong> La interfaz de usuario detecta y actualiza los clics de los usuarios en tiempo real.</li>
+  </ol>
 
-### `npm start`
+  <h2>Tecnologías Frontend:</h2>
+  <ul>
+    <li>React</li>
+    <li>Redux</li>
+    <li>React Router</li>
+    <li>Tailwind CSS</li>
+    <li>Axios</li>
+    <li>Web Vitals</li>
+  </ul>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  <h2>Tecnologías Backend:</h2>
+  <ul>
+    <li>Express</li>
+    <li>Helmet para mejorar la seguridad</li>
+    <li>Morgan para el registro de solicitudes</li>
+    <li>Cors para habilitar el manejo de solicitudes desde diferentes dominios</li>
+    <li>Dotenv para la configuración del entorno</li>
+    <li>Compression para comprimir las respuestas HTTP</li>
+  </ul>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  <h2>Instrucciones de Uso:</h2>
+  <ol>
+    <li>Clona el repositorio en tu máquina local.</li>
+    <li>Ejecuta el servidor backend utilizando nodemon para un reinicio automático.</li>
+    <li>Inicia la aplicación frontend con React y Redux para gestionar el estado.</li>
+    <li>Registra una cuenta o inicia sesión con credenciales existentes.</li>
+    <li>Explora la interfaz de usuario y observa cómo los clics se registran y actualizan en tiempo real para cada usuario.</li>
+  </ol>
 
-### `npm test`
+</details>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<details>
+  <summary>🇺🇸 Project Description</summary>
 
-### `npm run build`
+  <h2>Project Name:</h2>
+  <p>Registration and Login with Click Tracking - Full Stack</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  <h2>Description:</h2>
+  <p>This project introduces a full-stack application that includes a client-side registration and login system implemented with React and Redux. Additionally, it features an interactive user interface that tracks and updates clicks for each user. The backend is built with Express, and a JSON file is used as a database for easy portability.</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  <h2>Main Features:</h2>
+  <ol>
+    <li><strong>Reactive Registration and Login:</strong> Uses React and Redux to implement a reactive registration and login system.</li>
+    <li><strong>Routing with React Router:</strong> Facilitates navigation between different views within the application.</li>
+    <li><strong>Real-time Click Updates:</strong> The user interface detects and updates user clicks in real-time.</li>
+  </ol>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  <h2>Frontend Technologies:</h2>
+  <ul>
+    <li>React</li>
+    <li>Redux</li>
+    <li>React Router</li>
+    <li>Tailwind CSS</li>
+    <li>Axios</li>
+    <li>Web Vitals</li>
+  </ul>
 
-### `npm run eject`
+  <h2>Backend Technologies:</h2>
+  <ul>
+    <li>Express</li>
+    <li>Helmet for enhanced security</li>
+    <li>Morgan for request logging</li>
+    <li>CORS to enable handling requests from different domains</li>
+    <li>Dotenv for environment configuration</li>
+    <li>Compression for compressing HTTP responses</li>
+  </ul>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  <h2>Usage Instructions:</h2>
+  <ol>
+    <li>Clone the repository to your local machine.</li>
+    <li>Run the backend server using nodemon for automatic restarts.</li>
+    <li>Start the frontend application with React and Redux to manage state.</li>
+    <li>Register an account or log in with existing credentials.</li>
+    <li>Explore the user interface and observe how clicks are recorded and updated in real-time for each user.</li>
+  </ol>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+</details>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
